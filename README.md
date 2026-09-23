@@ -20,6 +20,9 @@ Below is the architectural blueprint representing the traffic flow and component
 
 ### 🌐 Networking & Core Infrastructure (VPC)
 *   **VPC Architecture:** Configured across **two Availability Zones (AZs)** to eliminate single points of failure.
+*   **Active VPC Verification:**
+*   <img width="1105" height="46" alt="image" src="https://github.com/user-attachments/assets/31a99569-60d6-4bac-91d1-d4755e724b51" />
+
 *   **Subnet Segmentation:** Strictly divided into **Public Subnets** (hosting the Application Load Balancer and NAT Gateways) and **Private Subnets** (hosting EC2 web servers and database instances) for data isolation.
 *   **Traffic Management:** Network Access Control Lists (NACLs) and layered Security Groups act as firewalls. Outbound internet access for private instances is securely handled through **AWS NAT Gateways**.
 
