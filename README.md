@@ -10,7 +10,7 @@ This repository contains the complete documentation and architectural blueprint 
 ## 🗺️ Solution Architecture Diagram
 Below is the architectural blueprint representing the traffic flow and component boundaries of the infrastructure:
 
-![Solution Architecture Diagram](./architecture-diagram.png)
+![Solution Architecture Diagram] 
 
 *Note: Traffic originates from Route 53, routes through CloudFront & WAF for protection and caching, enters the Application Load Balancer, and distributes dynamically to EC2 instances in private subnets across multiple AZs backed by a Multi-AZ RDS instance.*
 
