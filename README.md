@@ -12,6 +12,7 @@ Below is the architectural blueprint representing the traffic flow and component
 
 ![Solution Architecture Diagram] 
 
+
 *Note: Traffic originates from Route 53, routes through CloudFront & WAF for protection and caching, enters the Application Load Balancer, and distributes dynamically to EC2 instances in private subnets across multiple AZs backed by a Multi-AZ RDS instance.*
 
 ---
