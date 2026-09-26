@@ -67,4 +67,7 @@ Through architecting this project, deep engineering expertise was established in
 - [x] Hardening application infrastructure via integrated AWS WAF layers, isolation in private subnets, and locked-down Security Groups.
 - [x] Eliminating the need for internet-facing Bastion/Jump hosts through AWS Systems Manager Session Manager integration.
 
+Project Video
+Kindly check video at release
+<img width="378" height="132" alt="image" src="https://github.com/user-attachments/assets/870cd6c3-c902-4b4e-a8b4-5c4ec435777e" />
 
